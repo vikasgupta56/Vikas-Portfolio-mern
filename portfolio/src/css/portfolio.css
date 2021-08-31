@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 #background {
     background: black;
@@ -168,62 +169,69 @@ html{
 .centre {
     text-align: center;
 }
-
-#about {
-    text-align: center;
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.abouthexagon{
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    height: 100px;
+    width: 115px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: block;
+    background-color: #04c2c9;
+
+}
+.hexlogo{
+    color: white;
+    font-size: 45px;
 }
 
+
 #ab {
-    margin: 70px;
+    margin-top: 50px;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     animation-name: slideleft;
     color: #444649;
     margin-bottom: 3px;
-    display: block;
 }
 
 #line {
-    margin: 0px auto;
     height: 4px;
     width: 70px;
     background-color: #444649;
-    display: block;
 }
 
 #hex {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 80px;
     text-align: center;
 }
-
-#hf {
-    width: 276px;
-    font-family: 'Raleway', sans-serif;
-    margin-left: 100px;
+.abouthex{
+    margin: 0px 20px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-#hr {
-    width: 224px;
+.hextitle{
     font-family: 'Raleway', sans-serif;
-    margin-left: 40px;
+    margin-bottom: 10px;
 }
-
-#hb {
-    width: 232px;
-    padding-top: 2px;
-    margin-left: 60px;
+.hexpara{
     font-family: 'Raleway', sans-serif;
+    margin-top: 0px;
 }
 
 #hroc {
     width: 309px;
-    padding-top: 5px;
-    font-family: 'Raleway', sans-serif;
+   
     margin-left: 40px;
 }
 
@@ -234,14 +242,18 @@ html{
 #sabout {
     height: 600px;
     display: flex;
+    margin-top: 40px;
     justify-content: center;
 }
 
 #myimg {
-    height: 600px;
-    width: 40%;
-    text-align: center;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 #imghex {
@@ -249,7 +261,7 @@ html{
     height: 250px;
     width: 300px;
     margin: 0px auto;
-    margin-top: 90px;
+    /* margin-top: 90px; */
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
@@ -295,16 +307,21 @@ html{
 }
 
 #skilldiv {
-    height: 600px;
+    height: 100%;
     width: 50%;
-    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+ 
 }
 
 .skills {
     display: flex;
     height: 30px;
     width: 83%;
-    margin: 15px 0px;
+    margin: 10px 0px;
 }
 
 .skillname {
@@ -320,74 +337,13 @@ html{
 .perc {
     width: 71%;
     background-color: #eee;
+    border-right: 1px solid #00a1a7;
 }
 
-#a {
+.innerperc {
     height: 100%;
-    width: 100%;
     background-color: #00a1a7;
 }
-
-#b {
-    height: 100%;
-    width: 100%;
-    background-color: #00a1a7;
-}
-
-#c {
-    height: 100%;
-    width: 90%;
-    background-color: #00a1a7;
-}
-
-#j {
-    height: 100%;
-    width: 60%;
-    background-color: #00a1a7;
-}
-
-#d {
-    height: 100%;
-    width: 60%;
-    background-color: #00a1a7;
-}
-
-#e {
-    height: 100%;
-    width: 70%;
-    background-color: #00a1a7;
-}
-
-#f {
-    height: 100%;
-    width: 90%;
-    background-color: #00a1a7;
-}
-
-#g {
-    height: 100%;
-    width: 90%;
-    background-color: #00a1a7;
-}
-
-#h {
-    height: 100%;
-    width: 70%;
-    background-color: #00a1a7;
-}
-
-#i {
-    height: 100%;
-    width: 60%;
-    background-color: #00a1a7;
-}
-
-#j {
-    height: 100%;
-    width: 50%;
-    background-color: #00a1a7;
-}
-
 .percent {
     width: 8%;
     background-color: #eee;
@@ -435,45 +391,26 @@ html{
 
 
 }
-
-.projectcontainer {
+.projectcontainer{
     display: flex;
-    justify-content: center;
+    width: 1080px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: 55px auto;
-    height: 350px;
-    width: 1300px;
 }
 
-.projone {
-    margin: 0px 60px;
+.project{
+    margin: 40px;
+    margin-bottom: 20px;
     height: 350px;
     width: 450px;
     position: relative;
-}
-
-#projoneimg {
-    background: url(https://previews.123rf.com/images/akkamulator/akkamulator2002/akkamulator200200406/140449652-female-doctor-smiling-on-the-background-with-patient-in-the-bed-and-two-doctors.jpg);
-    background-size: 100% 100%;
-}
-
-#projimg {
-    background: url(../images/donation.JPG);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+  
 }
 
-#projoneimgone{
-
-background: url(https://www.netclipart.com/pp/m/32-328707_download-sticky-notes-png-hd.png) no-repeat;
-background-size: 100% 100%;
-
-}
-
-#projimgtwo {
-    background: url(https://i.pinimg.com/originals/43/d7/c3/43d7c3ab9a098052d5ace59b8986e057.gif) no-repeat center center/cover;
-}
-
-#whitedivone {
+.whitediv{
     position: absolute;
     background-color: #f1f1f1;
     height: 350px;
@@ -481,29 +418,6 @@ background-size: 100% 100%;
     display: none;
 }
 
-#whitedivtwo {
-    position: absolute;
-    background-color: #f1f1f1;
-    height: 350px;
-    width: 450px;
-    display: none;
-}
-
-#whitedivthree {
-    position: absolute;
-    background-color: #f1f1f1;
-    height: 350px;
-    width: 450px;
-    display: none;
-}
-
-#whitedivfour {
-    position: absolute;
-    background-color: #f1f1f1;
-    height: 350px;
-    width: 450px;
-    display: none;
-}
 
 .projjflex {
     position: relative;
@@ -663,8 +577,6 @@ footer {
     font-size: 50px;
     padding-top: 7px;
 }
-
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 body {
     padding: 0;
     margin: 0;
