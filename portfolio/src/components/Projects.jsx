@@ -10,7 +10,7 @@ const Projects = () => {
             id: "1"
         },
         {
-            bgimg: "url(static/media/donation.4cfd4015.JPG)",
+            bgimg: "url(/static/media/donation.4cfd4015.JPG)",
             title: "Donation website DonateEazy using ",
             span: "MERN",
             id: "2"
