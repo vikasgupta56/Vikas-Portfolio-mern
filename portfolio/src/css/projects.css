@@ -1,0 +1,17 @@
+@media (max-width:425px) {
+#projp{
+    margin-top: 30px;
+    font-size: 35px;
+    margin-bottom: 2px;
+    padding-top: 28px;
+}
+.projectcontainer{
+    flex-direction: column;
+    margin: 5px auto;
+    padding-bottom: 10px;
+}
+.project{
+    height: 180px;
+    width: 180px;
+}
+}
