@@ -1,5 +1,6 @@
 import React from 'react';
 import vikaspic from '../images/vikaspic.jpeg';
+import '../css/skills.css'
 
 
 const Skills = () => {

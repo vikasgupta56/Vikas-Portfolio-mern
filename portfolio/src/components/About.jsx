@@ -1,4 +1,5 @@
 import React from 'react';
+import "../css/about.css"
 import { BiTachometer } from "react-icons/bi";
 import { FaLaptopCode } from "react-icons/fa";
 import { BiBulb } from "react-icons/bi";

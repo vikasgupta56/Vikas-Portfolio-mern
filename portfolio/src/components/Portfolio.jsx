@@ -19,13 +19,13 @@ const Portfolio = () => {
 
     return (
         <>
-            <Home />
-            <Navbar />
-            <About />
+            {/* <Home /> */}
+            {/* <Navbar /> */}
+            {/* <About /> */}
             <Skills />
-            <Projects />
-            <Contact />
-            <Footer />
+            {/* <Projects /> */}
+            {/* <Contact /> */}
+            {/* <Footer /> */}
         </>
     )
 }

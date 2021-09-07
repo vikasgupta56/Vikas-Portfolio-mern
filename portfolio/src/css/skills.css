@@ -1,0 +1,57 @@
+@media (max-width:425px) {
+    html {
+        overflow-x: hidden;
+    }
+    #sabout {
+        flex-direction: column;
+    }
+    #myimg{
+        width: 100%;
+    }
+    #imghex{
+        height: 150px;
+        width: 170px;
+
+    }
+    #imghex img{
+        height: 166px;
+        width: 174px;
+        top: 2px;
+        right: 0px;
+    }
+    #myimg h1{
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+    .impara{
+        font-size: 12px;
+    }
+    #special{
+        font-size: 15px;
+    }
+    #resume{
+        font-size: 15px;
+    }
+    #skilldiv{
+        width: 100%;
+    }
+    .skills{
+        font-size: 12px;
+        height: 20px;
+        width: 83%;
+        margin: 5px 25px;
+    }
+    .skillname{
+        display: flex;
+        padding: unset;
+        justify-content: center;
+        align-items: center;
+    }
+    .percent{
+        display: flex;
+        padding: unset;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
