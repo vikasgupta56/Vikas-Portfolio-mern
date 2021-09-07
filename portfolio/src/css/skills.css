@@ -26,9 +26,13 @@
     }
     .impara{
         font-size: 15px;
+        width: 90%;
+        margin:3px auto;
     }
     #special{
+        display: block;
         font-size: 18px;
+        margin-top: 12px;
     }
     #resume{
         font-size: 18px;
