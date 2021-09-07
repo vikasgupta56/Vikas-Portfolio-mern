@@ -9,8 +9,8 @@
         width: 100%;
     }
     #imghex{
-        height: 150px;
-        width: 170px;
+        height: 156px;
+        width: 175px;
 
     }
     #imghex img{
@@ -20,26 +20,27 @@
         right: 0px;
     }
     #myimg h1{
-        font-size: 20px;
+        font-size: 25px;
         margin-bottom: 12px;
     }
     .impara{
-        font-size: 12px;
+        font-size: 15px;
     }
     #special{
-        font-size: 15px;
+        font-size: 18px;
     }
     #resume{
-        font-size: 15px;
+        font-size: 18px;
     }
     #skilldiv{
         width: 100%;
+        margin-top: 17px;
     }
     .skills{
-        font-size: 12px;
-        height: 20px;
+        font-size: 14px;
+        height: 26px;
         width: 83%;
-        margin: 5px 25px;
+        margin: 6px 25px;
     }
     .skillname{
         display: flex;
