@@ -1,6 +1,7 @@
 @media (max-width:425px) {
     #sabout{
         height: 856px;
+        margin-top: 70px;
     }
     #ab {
         margin-top: 30px;
@@ -14,6 +15,8 @@
         margin-top: 14px;
     }
     .hexpara{
+        width: 70%;
+    margin: 0px auto;
         margin-bottom: 3px;
     }
     .abouthex{

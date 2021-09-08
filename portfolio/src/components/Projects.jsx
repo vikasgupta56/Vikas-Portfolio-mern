@@ -31,7 +31,7 @@ const Projects = () => {
     ]
 
     let mouseenterfunc = (id) => {
-        document.getElementById(id).style.display = "block";
+        document.getElementById(id).style.display = "flex";
     }
 
     let mouseleavefunc = (id) => {

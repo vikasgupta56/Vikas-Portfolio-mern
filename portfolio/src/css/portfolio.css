@@ -399,15 +399,15 @@ html{
 }
 .projectcontainer{
     display: flex;
-    width: 1080px;
-    justify-content: space-evenly;
+    width: 100%;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 55px auto;
 }
 
 .project{
     margin: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     height: 350px;
     width: 450px;
     position: relative;
@@ -419,15 +419,16 @@ html{
 .whitediv{
     position: absolute;
     background-color: #f1f1f1;
-    height: 350px;
-    width: 450px;
+    height: 100%;
+    width: 100%;
     display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
 .projjflex {
-    position: relative;
-    top: 90px;
     width: 100%;
     text-align: center;
 
@@ -459,8 +460,8 @@ html{
     font-size: 20px;
     width: 150px;
     cursor: pointer;
-    position: relative;
-    top: 140px;
+    margin-top: 20px;
+    
 }
 
 .projbtn:hover {
