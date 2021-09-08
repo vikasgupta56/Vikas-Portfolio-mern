@@ -9,10 +9,26 @@
     flex-direction: column;
     margin: 5px auto;
     padding-bottom: 10px;
+    margin-top: 45px;
 }
 .project{
-    height: 230px;
-    width: 230px;
+    height: 270px;
+    width: 280px;
     margin: 20px auto;
+}
+.projhead{
+    font-size: 20px;
+    line-height: 24px;
+}
+.projjflex span{
+    font-size: 21px;
+}
+.projbtn{
+    border: 1px solid #e31b6d;
+    border-radius: 0px;
+    height: 40px;
+    font-size: 20px;
+    width: 120px;
+    margin-top: 10px;
 }
 }
