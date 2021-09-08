@@ -484,9 +484,13 @@ html{
 }
 
 #contact {
-    height: 500px;
     margin-top: -8px;
     background-color: #252934;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+    align-items: center;
+    justify-content: center;
 }
 
 #contact h1 {
@@ -557,31 +561,30 @@ html{
 
 footer {
     background-color: #1B241F;
-    height: 200px;
     text-align: center;
     position: relative;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#arrow {
-    color: white;
-    cursor: pointer;
+#newarrow{
+    width: 50px;
+    height: 60px;
     background-color: #e31b6d;
-    margin: 0px auto;
-    position: absolute;
-    height: 58px;
-    width: 52px;
-    top: -29px;
-    left: 48vw;
+    position: relative;
+    top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
 }
+#uparrow{
+font-size: 36px;
+color: white;
 
-#arrow p {
-    z-index: 30;
-    margin: 0px;
-    font-weight: 900;
-    font-size: 50px;
-    padding-top: 7px;
 }
 body {
     padding: 0;
@@ -594,7 +597,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 40px;
     text-align: center;
 }
 

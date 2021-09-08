@@ -1,0 +1,30 @@
+@media (max-width:425px) {
+#contact{
+    height: auto;
+    padding-bottom: 45px;
+}
+    #contact h1{
+    font-size: 35px;
+}
+#linee{
+    margin: 5px auto;
+}
+#cp{
+    margin: 15px auto;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+.input{
+    width: 85vw;
+
+}
+#textarea{
+    width: 85vw;
+    height: 50px;
+}
+#btn{
+    width: 85vw;
+    height: 35px;
+    font-size: 18px;
+}
+}

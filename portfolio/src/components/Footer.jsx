@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
+import '../css/footer.css'
+
 
 const Footer = () => {
     return (
         <>
              <footer>
-                <a href="#homename">
-                    <div id="arrow">
-                        <p id="up">^</p>
-                    </div>
-                </a>
+                <a style={{textDecoration:"none"}} href="#home"><div id="newarrow">
+                <i id="uparrow" class="fas fa-angle-up"></i>
+                </div></a>
                 <div className="social-container">
                     <ul className="social-icons">
                         <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
