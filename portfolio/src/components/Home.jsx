@@ -1,5 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
+import '../css/home.css';
+import file from '../images/file.mp4'
 
 const Home = () => {
 
@@ -37,17 +39,25 @@ const Home = () => {
         <>
             <a name="homename"></a>
             <div id="background">
-                <div className="container">
+              
+                    <div className="homeflex">
                     <div id="info">
                         <div className="flex">
-                            <pre id="infop">Hello,I'm </pre> <span id="pinkcolor"> Vikas Gupta</span>
+                            <p id="infop">Hello,I'm<span id="pinkcolor"> Vikas Gupta</span></p>
                         </div>
                         <p id="ip">I'm a full-stack Web Developer</p>
                         <a href="#projectsname"><button id="btnn">View my work<i class="fas fa-arrow-right" id="righta" style={{ marginLeft: "9px" }}></i></button></a>
                     </div>
+                    </div>
+                    <div className="container">
+                    <video loop muted autoPlay id="video">
+                    <source src={file} type="video/mp4" />
+                </video>
                     {row}
                 </div>
             </div>
+            
+
 
         </>
     )

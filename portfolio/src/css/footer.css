@@ -1,14 +1,15 @@
 @media (max-width:425px) {
     #newarrow{
-        height: 40px;
-        width: 35px;
+        height: 45px;
+        width:40px;
         top: -20px;
     }
+    
     #uparrow{
         font-size: 20px;
     }
     .social-container {
-    padding-top: 10px;
+    padding-top: 5px;
     }
     footer p{
         font-size: 14px;

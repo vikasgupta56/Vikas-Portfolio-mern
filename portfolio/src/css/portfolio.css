@@ -4,19 +4,17 @@ html{
 }
 #background {
     background: black;
+    position: relative;
+    overflow-x: hidden;
     
 }
 
 .container {
     height: 100vh;
-    position: relative;
+    position: absolute;
+    top: 0px;
     overflow: hidden;
     animation: color 4s linear infinite;
-}
-#yo{
-    height: 200px;
-    height: 200px;
-    background: url(../images/donation.JPG);
 }
 
 .row {
@@ -59,24 +57,27 @@ html{
 
 .tr:hover {
     transition: 0s;
-    background: red;
+    background: red
 }
-
+.homeflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
 .flex {
     display: flex;
-    position: relative;
-    left: 0px;
-    height: 69px;
     margin: 0px;
+    
 }
 
 #info {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     z-index: 10;
-    height: 0px;
-    top: 214px;
-    left: 369px;
-    width: 800px;
     text-align: center;
 }
 
@@ -85,7 +86,6 @@ html{
     font-size: 60px;
     margin: 0px;
     font-family: 'Raleway', sans-serif;
-    position: relative;
 }
 
 #pinkcolor {
@@ -99,13 +99,11 @@ html{
     transition: all ease 0.4s;
 }
 #ip {
-    width: 854px;
     margin: 8px 0px;
     color: white;
     font-size: 60px;
     font-family: 'Raleway', sans-serif;
-    position: relative;
-    left: -121px;
+   
     margin-bottom: 25px;
 }
 
@@ -120,8 +118,6 @@ html{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    position: relative;
-    right: 70px;
 }
 
 #btnn:hover {
@@ -130,6 +126,9 @@ html{
     color: white;
     outline: none;
     border: 2px solid #04c2c9;
+}
+#video{
+    display: none;
 }
 
 #navbar {

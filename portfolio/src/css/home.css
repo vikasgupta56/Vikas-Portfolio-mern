@@ -1,0 +1,26 @@
+@media (max-width:425px) {
+
+#infop{
+font-size: 22px;
+}
+#pinkcolor{
+    font-size: 23px;
+}
+#ip{
+    font-size: 22px;
+}
+.row{
+    display: none;
+}
+#video{
+    display: block;
+}
+#btnn{
+    height: 40px;
+    font-size: 18px;
+    width: 170px;
+}
+#righta{
+    font-size: 15px;
+}
+}

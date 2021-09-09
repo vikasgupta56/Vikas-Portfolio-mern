@@ -10,6 +10,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import file from '../images/file.mp4'
 
 const Portfolio = () => {
 
@@ -19,9 +20,9 @@ const Portfolio = () => {
 
     return (
         <>
-            {/* <Home /> */}
+            <Home />
             {/* <Navbar /> */}
-            {/* <About /> */}
+            <About />
             <Skills />
             <Projects />
             <Contact />
