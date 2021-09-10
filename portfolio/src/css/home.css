@@ -1,13 +1,18 @@
 @media (max-width:425px) {
-
+#secondvideo{
+    transform-origin: center;
+    transform: rotateX(180deg);
+}
 #infop{
-font-size: 22px;
+font-size: 25px;
 }
 #pinkcolor{
-    font-size: 23px;
+    font-size: 26px;
 }
 #ip{
-    font-size: 22px;
+    margin:25px 0px;
+    margin-bottom: 30px;
+    font-size: 25px;
 }
 .row{
     display: none;
@@ -16,11 +21,12 @@ font-size: 22px;
     display: block;
 }
 #btnn{
-    height: 40px;
-    font-size: 18px;
-    width: 170px;
+    height: 45px;
+    font-size: 19px;
+    width: 180px;
 }
 #righta{
     font-size: 15px;
+    
 }
 }

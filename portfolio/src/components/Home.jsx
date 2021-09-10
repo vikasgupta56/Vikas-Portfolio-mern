@@ -20,6 +20,30 @@ const Home = () => {
         });
 
 
+        var vid1 = document.getElementById("video");
+var vid2 = document.getElementById("secondvideo");
+
+var vid1Ready = false
+var vid2Ready = false
+
+vid1.onloadeddata = function() {
+    if (vid2Ready == true) {
+      vid1.play()
+      vid2.play()
+    } else {
+      vid1Ready = true
+    }
+};
+
+vid2.onloadeddata = function() {
+    if (vid1Ready == true) {
+      vid1.play()
+      vid2.play()
+    } else {
+      vid2Ready = true
+    }
+};
+
     }, [])
 
     const row = [];
@@ -51,6 +75,9 @@ const Home = () => {
                     </div>
                     <div className="container">
                     <video loop muted autoPlay id="video">
+                    <source src={file} type="video/mp4" />
+                </video>
+                <video id="secondvideo" loop muted autoPlay>
                     <source src={file} type="video/mp4" />
                 </video>
                     {row}
