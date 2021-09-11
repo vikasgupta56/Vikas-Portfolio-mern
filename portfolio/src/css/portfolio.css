@@ -130,6 +130,9 @@ html{
 #video{
     display: none;
 }
+#secondvideo{
+    display: none;
+}
 
 #navbar {
     background-color: #1b242f;
@@ -138,7 +141,9 @@ html{
     margin: 0px;
     z-index: 240;
 }
-
+#mobnavbar{
+    display: none;
+}
 #navbar ul {
     display: flex;
     margin: 0px;
@@ -657,4 +662,7 @@ body {
 footer p {
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-x: hidden;
 }

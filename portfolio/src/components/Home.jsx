@@ -19,31 +19,6 @@ const Home = () => {
             raa.style.transform = `rotate(${hrotation}deg)`;
         });
 
-
-        var vid1 = document.getElementById("video");
-var vid2 = document.getElementById("secondvideo");
-
-var vid1Ready = false
-var vid2Ready = false
-
-vid1.onloadeddata = function() {
-    if (vid2Ready == true) {
-      vid1.play()
-      vid2.play()
-    } else {
-      vid1Ready = true
-    }
-};
-
-vid2.onloadeddata = function() {
-    if (vid1Ready == true) {
-      vid1.play()
-      vid2.play()
-    } else {
-      vid2Ready = true
-    }
-};
-
     }, [])
 
     const row = [];

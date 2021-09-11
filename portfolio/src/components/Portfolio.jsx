@@ -21,7 +21,7 @@ const Portfolio = () => {
     return (
         <>
             <Home />
-            {/* <Navbar /> */}
+            <Navbar />
             <About />
             <Skills />
             <Projects />

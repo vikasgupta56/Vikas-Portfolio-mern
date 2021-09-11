@@ -1,0 +1,49 @@
+@media (max-width:425px) {
+    #navbar {
+        display: none;
+    }
+    #mobnavbar {
+        display: block;
+        background-color:#333333 ;
+        height: 50px;
+        transition: height 0.4s ease;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    #navmain {
+        height: 50px;
+        background-color: #1b242f;
+        border-bottom: 2px solid #04c2c9;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .navline{
+        height: 4px;
+        width: 35px;
+        border-radius: 5px;
+        background-color: white;
+        margin: 6px 10px ;
+        transition: all ease 0.4s;
+    }
+    .cross{
+        transform-origin: right;
+    }
+    #mobnavbar ul{
+        margin: 0px;
+        padding: 0px;
+    }
+    #mobnavbar ul li{
+        list-style: none;
+        padding: 12px 20px;
+
+    }
+    #mobnavbar ul li a{
+        color: white;
+        font-size: 19px;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        }
+
+}
