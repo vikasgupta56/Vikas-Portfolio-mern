@@ -65,7 +65,7 @@ const Skills = () => {
                     <a id="sa" href="#contactname">
                         <p id="special">Lets create something special</p>
                     </a>
-                    <a id="resume" href="./VikasResume.pdf" download><p>Download my resume</p></a>
+                    <a id="resume" href="https://drive.google.com/file/d/1-R_NW_h7iJaKXXYjosfqSNCL4zeWPP5M/view?usp=sharing" target="_blank"><p>Download my resume</p></a>
 
                 </div>
                 <div id="skilldiv" data-aos="fade-left" data-aos-duration="1150">
