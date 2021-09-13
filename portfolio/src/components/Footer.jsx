@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <>
              <footer>
-                <a style={{textDecoration:"none"}} href="#home"><div id="newarrow">
+                <a style={{textDecoration:"none"}} href="#"><div id="newarrow">
                 <i id="uparrow" class="fas fa-angle-up"></i>
                 </div></a>
                 <div className="social-container">

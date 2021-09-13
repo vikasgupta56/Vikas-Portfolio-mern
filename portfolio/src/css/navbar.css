@@ -7,7 +7,6 @@
         background-color:#333333 ;
         height: 50px;
         transition: height 0.4s ease;
-        position: -webkit-sticky;
         position: sticky;
         top: 0;
     }

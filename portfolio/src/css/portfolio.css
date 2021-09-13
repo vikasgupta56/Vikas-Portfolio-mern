@@ -1,12 +1,18 @@
 html{
     scroll-behavior: smooth;
+}
+body{
     overflow-x: hidden;
 }
-#background {
+
+#home{
     background: black;
     position: relative;
     overflow-x: hidden;
     
+}
+.selected{
+    color:#e31b6d;
 }
 
 .container {
@@ -29,7 +35,6 @@ html{
     height: 140px;
     width: 110px;
     background: #111;
-    margin: 1 0px;
     clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
     transition: 2s;
     margin-left: 1px;
@@ -156,6 +161,7 @@ html{
     text-decoration: none;
     font-size: 20px;
     color: white;
+    transition: all .3s ease;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -464,6 +470,7 @@ html{
     width: 150px;
     cursor: pointer;
     margin-top: 20px;
+    transition: all 0.3s ease;
     
 }
 
@@ -662,7 +669,4 @@ body {
 footer p {
     color: white;
     font-family: 'Roboto', sans-serif;
-}
-body{
-    overflow-x: hidden;
 }

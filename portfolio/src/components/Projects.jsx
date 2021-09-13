@@ -40,8 +40,8 @@ const Projects = () => {
 
     return (
         <>
-            <a name="projectsname"></a>
-            <div id="col">
+           
+            <div id="col" className="section">
                 <div id="projects">
                     <p id="projp" data-aos="fade-left" data-aos-duration="1000">PROJECTS</p>
                     <div id="pline" data-aos="fade-left" data-aos-duration="1000"></div>

@@ -33,9 +33,9 @@ const About = () => {
 
     return (
         <>
-            <a name="aboutname"></a>
+  
                 <div id="aboutsection">
-                    <div id="about">
+                    <div id="about" className="section">
                         <div id="ab" data-aos="fade-right" data-aos-duration="1100">ABOUT</div>
                         <div id="line" data-aos="fade-right" data-aos-duration="1100" data-aos-delay="500"></div>
                     </div>

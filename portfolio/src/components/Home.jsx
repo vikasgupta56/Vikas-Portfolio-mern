@@ -36,8 +36,7 @@ const Home = () => {
 
     return (
         <>
-            <a name="homename"></a>
-            <div id="background">
+            <div id="home" className="section">
               
                     <div className="homeflex">
                     <div id="info">
