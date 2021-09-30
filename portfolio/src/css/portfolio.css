@@ -23,6 +23,16 @@ body{
     animation: color 4s linear infinite;
 }
 
+@keyframes color {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+    
+}
+
 .row {
     display: inline-flex;
     overflow: hidden;
