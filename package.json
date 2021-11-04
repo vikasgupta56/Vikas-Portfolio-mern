@@ -13,6 +13,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.12.14",
+    "nodemailer": "^6.7.0",
     "path": "^0.12.7"
   },
   "devDependencies": {
