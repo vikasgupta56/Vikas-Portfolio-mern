@@ -50,8 +50,8 @@ app.post('/register', async (req, res) => {
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-              user: 'vika.gupta100@gmail.com',
-              pass: 'aquasure'
+              user: process.env.NODE_EMAIL || 'vika.gupta100@gmail.com',
+              pass: process.env.PASSWORD ||'aquasure'
             }
           });
 
