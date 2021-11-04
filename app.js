@@ -51,7 +51,7 @@ app.post('/register', async (req, res) => {
             service: 'gmail',
             auth: {
               user: process.env.NODE_EMAIL || 'vika.gupta100@gmail.com',
-              pass: process.env.PASSWORD ||'aquasure'
+              pass: process.env.NODE_PASSWORD ||'aquasure'
             }
           });
 
